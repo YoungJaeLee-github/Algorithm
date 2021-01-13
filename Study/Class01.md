@@ -9,7 +9,7 @@
 <pre>
 for(int i = 1; i <= N; i++) -> O(N)
 {
-	sum += I;
+	sum += i;
 }
 </pre>
 
