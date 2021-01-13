@@ -13,7 +13,7 @@ for(int i = 1; i <= N; i++) -> O(N)
 }
 </pre>
 
-<pre> int sum = N * (N+1) / 2; </pre>
+<pre> int sum = N * (N+1) / 2; -> O(1) </pre>
 
 ### 문제의 크기
 * 문제의 크기를 보통 N이라고 하고, 문제의 크기 N에 따라 걸리는 시간이 다름
