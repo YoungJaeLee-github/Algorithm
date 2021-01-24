@@ -4,8 +4,8 @@ import java.util.ArrayList;
 public class ReverseWordsByStack {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
         int testCase = Integer.parseInt(bufferedReader.readLine());
+
         while (testCase != 0) {
             String input = bufferedReader.readLine();
             input += '\n';
