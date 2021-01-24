@@ -25,7 +25,6 @@ public class ReverseWordsByStack {
             System.out.print(result);
             testCase--;
         }
-
         bufferedReader.close();
     }
 }
