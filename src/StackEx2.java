@@ -15,9 +15,9 @@ public class StackEx2 {
 
             for (int i = 0; i < input.length(); i++) {
                 if (input.charAt(i) == '(')
-                    openBracketCount++;
+                    openBracketCount++; //push
                 else
-                    openBracketCount--;
+                    openBracketCount--; //pop
                 if (openBracketCount < 0) {
                     break;
                 }
