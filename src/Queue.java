@@ -12,10 +12,7 @@ public class Queue {
     }
 
     public int pop() {
-        if (empty() == 0) {
-            return queue.remove(0);
-        }
-        return -1;
+        return empty() == 0 ? queue.remove(0) : -1;
     }
 
     public int empty() {
