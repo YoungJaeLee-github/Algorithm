@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Ex6 {
+public class Ex06 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));

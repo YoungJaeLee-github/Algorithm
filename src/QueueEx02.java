@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class QueueEx2 {
+public class QueueEx02 {
     public static void main(String[] args) throws IOException {
         Queue<Integer> queue = new LinkedList<>();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
