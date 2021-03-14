@@ -1,10 +1,8 @@
-import java.util.LinkedList;
 
 public class Deque {
-    private final LinkedList<Integer> deque;
-
+    LinkedList deque;
     public Deque() {
-        deque = new LinkedList<>();
+        deque = new LinkedList();
     }
 
     public void push_back(int data) {
@@ -16,11 +14,11 @@ public class Deque {
     }
 
     public int pop_front() {
-            return empty() != 1 ? deque.removeFirst() : -1;
+            return empty() != 1 ? (int)deque.removeFirst() : -1;
     }
 
     public int pop_back() {
-        return empty() != 1 ? deque.removeLast() : -1;
+        return empty() != 1 ? (int)deque.removeLast() : -1;
     }
 
     public int empty() {
@@ -28,11 +26,11 @@ public class Deque {
     }
 
     public int front() {
-        return empty() == 1 ? -1 : deque.getFirst();
+        return empty() == 1 ? -1 : (int)deque.get(0);
     }
 
     public int back() {
-        return empty() == 1 ? -1 : deque.getLast();
+        return empty() == 1 ? -1 : (int)deque.get(size() - 1);
     }
 
     public int size() {
